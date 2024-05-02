@@ -42,6 +42,15 @@ The resulting fastqs from the experiment can be analyzed with the following step
 
 enter “y” when prompted.
 
+### Download and index the reference genome. Only need to do this once for all analyses with the same reference genome.
+
+1. Create a folder within the integrato folder with the name genomeref
+2. Download your chosen reference genome to this directory. We used GRCh38.p14 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
+3. In the terminal, navigate to the genomeref directory (e.g., ```cd ~/Documents/integrato/genomeref```)
+4. Index the reference genome with the terminal command:
+
+```bwa index GRCh38.p14.fna```
+ 
 ### Run the analysis: the data can now be analyzed with the few remaining steps. Start here if the conda environment has already been set up.
 
 1.	In the terminal, change directory to the integrato analysis folder where the repo code was downloaded (e.g., ```cd ~/Documents/integrato```)
