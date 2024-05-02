@@ -29,8 +29,7 @@ Setup environment: This step will create a conda virtual environment with the ne
 
 1.	Navigate to the location in your file system where you want to run the analysis (e.g., ~/Documents/integrato_analysis)
 2.	Download the entire repo to this location
-3.	Open a terminal window and change directory to this one with “cd” command 
-(e.g., cd ~/Documents/integrato_analysis)
+3.	Open a terminal window and change directory to this one with “cd” command (e.g., cd ~/Documents/integrato_analysis)
 4.	Run the environment setup script with the following terminal command:
 
 sh create_env.sh
