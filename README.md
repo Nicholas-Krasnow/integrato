@@ -23,30 +23,30 @@ Install system requirements:
 1. Anaconda: https://www.anaconda.com/download
 2. Homebrew: https://brew.sh/
 3. bwa: run the command in the terminal ```brew install bwa```  
-4. bedtools: run the command in the terminal brew install bedtools 
+4. bedtools: run the command in the terminal ```brew install bedtools``` 
 
 Setup environment: This step will create a conda virtual environment with the necessary Python installation and necessary packages. Only need to do this once.
 
 1.	Navigate to the location in your file system where you want to run the analysis (e.g., ~/Documents)
 2.	Download the entire repo to this location
-3.	Open a terminal window and change directory to this one with “cd” command (e.g., cd ~/Documents/integrato)
+3.	Open a terminal window and change directory to this one with “cd” command (e.g., ```cd ~/Documents/integrato```)
 4.	Run the environment setup script with the following terminal command:
 
-sh create_env.sh
+```sh create_env.sh```
 
 enter “y” when prompted.
 
 Run the analysis: the data can now be analyzed with the few remaining steps. Start here if the conda environment has already been set up.
 
-1.	In the terminal, change directory to the integrato analysis folder where the repo code was downloaded (e.g., cd ~/Documents/integrato)
+1.	In the terminal, change directory to the integrato analysis folder where the repo code was downloaded (e.g., ```cd ~/Documents/integrato```)
 2.	Copy the miseq output R1 fastqs from your experiment into this folder. Files should be compressed (.gz) and do not include the index files.
 3.	Activate the conda environment with the terminal command:
 
-conda activate integrato_env
+```conda activate integrato_env```
 
 4.	Run the analysis code with the following terminal command:
 
-sh runISM_0.sh 
+```sh runISM_0.sh``` 
 
 This command will execute all the code to analyze the reads and generate output quantification files.
 
