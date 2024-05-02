@@ -6,7 +6,7 @@ Overview
 Integrato is a tool for identifying and quantifying the on- and off-target integration events of programmable gene integration technologies. Data are collected with a UDiTaS experiment, then analyzed with the script here.  
 Summary of the UDiTaS experiment. Treatment of cells with integrase results in on-target integration of the donor DNA as well as off-target integration at unknown loci. Tagmentation with Tn5* introduces Illumina adapters randomly across the genome, providing handles for PCR amplification and sequencing of on- and off-target sites. 
 
-
+![image](https://github.com/Nicholas-Krasnow/integrato/assets/119907096/cd5fb2ff-41df-48e3-ad8a-c6734bf7f7d5)
  
 Summary of UDiTaS data analysis pipeline. Sequencing reads generated in the experiment are first processed with quality filtering as well as filtering for reads with the donor-specific primer and att subsequence. Reads are then deduplicated by the UMI sequence in the donor DNA. Filtered and deduplicated reads are aligned to the genome with BWA-MEM and clustered into neighborhoods with Bedtools which allows for the identification and quantification of genomic integration sites. 
 
@@ -56,6 +56,3 @@ Note: the code is written for identifying integrations of the donor plasmid and 
 
 Interpreting results
 Running the code should have generated a folder for each target site (e.g., ‘AAVS1’). In this folder, the subfolder “output_clustered_multiple_reads”, which contains the output files quantifying all clustered integration sites that were mapped with at least two reads. When the aligned genomic sequence is found directly adjacent to the att subsequence from the donor plasmid (allowing up to one mismatch from sequencing error), the expected pre-integration att sequence on the genome is provided. Note: UDiTaS experiments can produce false-positive integration loci, such as alignments arising from integration into the pegRNA plasmids. Nominated sites should be manually inspected, further filtered for known artifacts, and validated with an orthogonal assay (ddPCR).
-
-
-![image](https://github.com/Nicholas-Krasnow/integrato/assets/119907096/a7c7365b-c97e-45af-8540-6cad754d8afe)
