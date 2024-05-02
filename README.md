@@ -35,7 +35,7 @@ The resulting fastqs from the experiment can be analyzed with the following step
 
 1.	Navigate to the location in your file system where you want to run the analysis (e.g., ~/Documents)
 2.	Download the entire repo to this location
-3.	Open a terminal window and change directory to this one with “cd” command (e.g., ```cd ~/Documents/integrato```)
+3.	Open a terminal window and change directory to this one with “cd” command (e.g., ```cd ~/Documents/integrato-main```)
 4.	Run the environment setup script with the following terminal command:
 
 ```sh create_env.sh```
@@ -46,14 +46,14 @@ enter “y” when prompted.
 
 1. Create a folder within the integrato folder with the name genomeref
 2. Download your chosen reference genome to this directory. We used GRCh38.p14 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
-3. In the terminal, navigate to the genomeref directory (e.g., ```cd ~/Documents/integrato/genomeref```)
+3. In the terminal, navigate to the genomeref directory (e.g., ```cd ~/Documents/integrato-main/genomeref```)
 4. Index the reference genome with the terminal command:
 
 ```bwa index GRCh38.p14.fna```
  
 ### Run the analysis: the data can now be analyzed with the few remaining steps. Start here if the conda environment has already been set up.
 
-1.	In the terminal, change directory to the integrato analysis folder where the repo code was downloaded (e.g., ```cd ~/Documents/integrato```)
+1.	In the terminal, change directory to the integrato analysis folder where the repo code was downloaded (e.g., ```cd ~/Documents/integrato-main```)
 2.	Copy the miseq output R1 fastqs from your experiment into this folder. Files should be compressed (.gz) and do not include the index files.
 3.	Activate the conda environment with the terminal command:
 
