@@ -1,6 +1,8 @@
 # integrato
 Mapping the integration sites from UDiTaS experiments with the eePASSIGE system
 
+Described in: Pandey, S., Gao, X., et al. Efficient and versatile programmable large-gene integration in mammalian cells enabled by continuously evolved recombinases and prime editing. Nature Biomedical Engineering (2024)
+
 ## Overview
 
 Integrato is a tool for identifying and quantifying the on- and off-target integration events of programmable gene integration technologies. Data are collected with a UDiTaS experiment, then analyzed with the script here.  
