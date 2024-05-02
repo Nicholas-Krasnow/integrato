@@ -7,7 +7,7 @@ Described in: Pandey, S., Gao, X., et al. Efficient and versatile programmable l
 
 Integrato is a tool for identifying and quantifying the on- and off-target integration events of programmable gene integration technologies. Data are collected with a UDiTaS experiment, then analyzed with the script here.  
 
-![image](https://github.com/Nicholas-Krasnow/integrato/assets/119907096/39ebf393-2803-471d-ba9e-afffe4daf80b)
+![image](https://github.com/Nicholas-Krasnow/integrato/assets/119907096/97eeb149-e1b8-4f7b-8e4a-d94cabe6462d)
 
 
 Summary of the UDiTaS experiment. Treatment of cells with integrase results in on-target integration of the donor DNA as well as off-target integration at unknown loci. Tagmentation with Tn5* introduces Illumina adapters randomly across the genome, providing handles for PCR amplification and sequencing of on- and off-target sites. 
