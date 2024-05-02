@@ -20,10 +20,10 @@ Analyzing the sequencing data
 The resulting fastqs from the experiment can be analyzed with the following steps on MacOS. 
 
 Install system requirements:
-•	Anaconda: https://www.anaconda.com/download
-•	Homebrew: https://brew.sh/
-•	bwa: run the command in the terminal brew install bwa  
-•	bedtools: run the command in the terminal brew install bedtools 
+1. Anaconda: https://www.anaconda.com/download
+2. Homebrew: https://brew.sh/
+3. bwa: run the command in the terminal brew install bwa  
+4. bedtools: run the command in the terminal brew install bedtools 
 
 Setup environment: This step will create a conda virtual environment with the necessary Python installation and necessary packages. Only need to do this once.
 
